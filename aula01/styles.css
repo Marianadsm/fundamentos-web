@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* *************INDEX.html************* */
+
+/* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}*/
+* {
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0 0 0 0;
+    font-family: 'Bangers', cursive;
+    color: rgb(27, 4, 49);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bangers', cursive;
+}
+
+.menu li {
+    list-style: none;
+    display: flex;
+    display: inline;
+    margin-right: 0px;
+    font-size: 15px;
+    padding: 15px;
+    width: 70vw;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.5 rem;
+
+}
+
+.perfil {
+    display: flex;
+    flex-flow: row;
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    background-color: rgb(224, 203, 233);
+    padding: 20px;
+    border-radius: 16px;
+    align-items: center;
+}
+
+.foto {
+    padding: 20px 20px;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+hr {
+    width: 100vw;
+    margin: 0 0 0 0
+}
+
+.video {
+    text-align: center;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+/* *************CONTATO.html************* */
+
+.formulario {
+    display: flex;
+    flex-flow: column;
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 1cm;
+    background-color: rgb(224, 203, 233);
+    padding: 20px;
+    border-radius: 16px;
+    align-items: center;
+
+}
+
+.endereco {
+    display: flex;
+    flex-flow: column;
+    width: 70vw;
+    margin: 0 auto;
+    /*background-color: rgb(224, 203, 233);*/
+    padding: 20px;
+    align-items: center;
+
+}
+
+input,
+textarea {
+    width: 40%;
+    margin-top: 0;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+label,
+.tituloEnd {
+    font-family: 'Bangers', cursive;
+    font-size: 1.125rem;
+}
+.tituloEnd {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.endereco {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 1rem;
+    padding: 0, 5rem;
+    margin-top: 0
+}
+
+
+article,
+.textovid,
+.pEndereco {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.pEndereco{
+    text-align: center;
+}
+
+.fim {
+    margin-top: 40px;
+}
+
+footer {
+    text-align: center;
+}
