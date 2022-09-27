@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
+
+/*****Arquivo Index.html *****/
+.titulo {}
+
+.menu li {
+    display: inline;
+    padding: 10px;
+    font-size: 15;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu,
+h1,
+.formulario
+.tituloendereco {
+   /* font-family: 'Bangers', cursive;*/
+   font-family: 'Inconsolata', monospace;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 0.1px;
+    margin-top: 0cm;
+}
+
+.perfil {
+    display: flex;
+    flex-flow: row;
+    width: 70vw;
+    margin: 0 auto;
+    align-items: center;
+    padding: 15px;
+    background-color: #c1e7e4;
+    border-radius: 15px;
+    margin-top: 1px;
+}
+
+hr {
+    width: 70vw;
+    margin-bottom: 20px;
+}
+
+.foto {
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.center {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+article {
+    padding: 30px;
+}
+
+.video {
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h3 {}
+
+footer {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+/***** Arquivo Contato *****/
+
+.formulario {
+    display: flex;
+    flex-flow: column;
+    width: 70vw;
+    margin: 0 auto;
+    align-items: center;
+    padding: 30px;
+    margin-top: 1px;
+    background-color: #c1e7e4;
+    border-radius: 20px;
+
+}
+
+label {
+    padding: 15px;
+    
+
+}
+
+input {
+    width: 40vw;
+    height: 40px;
+}
+
+textarea {
+    width: 40vw;
+    height: 100px;
+    margin-bottom:20px
+
+}
+
+.tituloendereco {
+   /* font-family: 'Bangers', cursive;*/
+   font-family: 'Inconsolata', monospace;
+}
+
+.mapa{
+    padding: 20px;
+}
+
