@@ -3,18 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
 
 /*****Arquivo Index.html *****/
-.titulo {}
 
 .menu li {
     display: inline;
-    padding: 10px;
+    padding: 0px;
     font-size: 15;
     width: 70vw;
     margin: 0 auto;
+   
 }
 
 .menu li a {
     text-decoration: none;
+    display: flex inline;
+    
 }
 
 .menu,
@@ -59,6 +61,10 @@ hr {
     font-family: 'Inconsolata', monospace;
 }
 
+.justifytext{
+    text-align: justify;
+}
+
 article {
     padding: 30px;
 }
@@ -70,8 +76,6 @@ article {
     justify-content: center;
     padding: 20px;
 }
-
-h3 {}
 
 footer {
     text-align: center;
@@ -120,3 +124,11 @@ textarea {
     padding: 20px;
 }
 
+.tm {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none}

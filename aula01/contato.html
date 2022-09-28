@@ -30,23 +30,25 @@
     <main class="center">
         <section class="formulario">
 
-            <label for="nome:">Nome:</label> 
-            <input type="text" id="nome"type="text" placeholder="Insira o seu nome completo"> 
+            <label for="nome:">Nome:</label>
+            <input type="text" id="nome" type="text" placeholder="Insira o seu nome completo" onkeyup="validaNome()">
+            <div id="txtNome"></div>
 
-            <label for="email:">E-mail:</label> 
-            <input type="email" id="email"type="text" placeholder="Insira o seu e-mail"> 
+            <label for="email:">E-mail:</label>
+            <input type="email" id="email" type="text" placeholder="Insira o seu e-mail"onkeyup="validaEmail()">
+            <div id="txtEmail"></div>
 
-            <label for="mensagem:">Mensagem:</label> 
-            <textarea name="mensagem" id="mensagem" cols="80" rows="5"  ></textarea> 
+            <label for="mensagem:">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="80" rows="5" onkeyup="validaAssunto()" ></textarea>
+            <div id="txtAssunto"></div>
 
-
-            <button>Enviar</button>
+            <button onclick = "enviar()" >Enviar</button >
             </form>
         </section>
-       
+
 
         <div class="endereco">
-            <h2 class="tituloendereco" >Endereço:</h2>
+            <h2 class="tituloendereco">Endereço:</h2>
             <section class="center">
                 <p>Av. Paulista, 1000</p>
                 <p>São Paulo - SP</p>
@@ -58,9 +60,29 @@
         </div>
     </main>
 
+    <hr>
+
+    <div class="center">
+        <a href="https://www.linkedin.com/in/marianadsm" target="_blank">
+            <img class="tm" src="assets/img/linkedin.png" alt="logo do LinkedIn">
+        </a>
+       
+        <a href="https://www.instagram.com/mari_inchains" target="_blank">
+            <img class="tm" src="assets/img/instagram.png" alt="logo do Instagram">
+        </a>
+        
+        <a href="https://www.facebook.com/marianadsmelo" target="_blank">
+            <img class="tm" src="assets/img/facebook.png" alt="logo do Facebook">
+        </a>
+    </div>
+
     <footer>
         <p>Desenvolvido com amor e carinho por: Mariana Melo - Generation Brasil &copy;</p>
     </footer>
+
+    <script src= "assets/scripts/js/script.js"></script>
+
+
 </body>
 
 </html>
